@@ -1,0 +1,401 @@
+/*************************
+  généralités
+*************************/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family:'Raleway',sans-serif;
+}
+
+h1,h2{
+	text-transform: uppercase;
+}
+
+h1{
+	color:black;
+    margin-bottom:5px;
+    padding: 5px;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom:20px;
+	color:#ff80ab;
+}
+
+p{
+	font-size: 18px;
+}
+
+/*************************
+nav
+*************************/
+nav ul li a{
+	display:inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+  color:white;
+  
+}
+
+nav ul li a:hover{
+	color:#ff80ab;
+	text-decoration: underline;
+}
+
+.nav-link {
+  display: block;
+}
+
+/*************************
+SECTION HEADER NAV
+*************************/
+.headernav{
+	background: url(../img/fondnoiretblan.jpeg) no-repeat left top; /* left top > background-position: 0 0;*/
+  background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color:white;
+	line-height: 50px;
+  text-transform: uppercase;
+}
+.wrap{
+  padding-top: 150px;
+}
+
+/*************************
+SECTION BONHEUR
+*************************/
+.bonheur{
+	/*background: url(../img/francisco.jpg) no-repeat left top; /* left top > background-position: 0 0;*/
+	background-color: black;
+	background-size: cover;
+	padding: 50px 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	color:pink;
+	line-height: 50px;
+}
+
+
+/*************************
+SECTION QUATRE
+*************************/
+.container.quatre{
+	margin-top: 100px;
+	margin-bottom:100px;
+}
+
+/*************************
+SECTION CENTRALE
+*************************/
+.centrale{
+	background: url(../img/fondnoiretblan.jpeg) no-repeat left top; /* left top > background-position: 0 0;*/
+	background-size: cover;
+	padding: 170px 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color:white;
+  line-height: 50px;
+  height: 400PX;
+}
+
+.containertitle{
+  position:absolute;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.data{
+  color:#ff80ab;
+  font-weight:800;
+  text-align:centre;
+  letter-spacing:.6rem;
+  font-size:80px;
+}
+
+/*************************
+SECTION MUSIC
+*************************/
+.musique{
+	background: url(../img/fondjaunerose.jpeg) no-repeat left top; /* left top > background-position: 0 0;*/
+	background-size: cover;
+	padding: 160px 0;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 500;
+	color:white;
+	line-height: 50px;
+	display: block;
+	margin-top: 150px;
+}
+.musique:hover{
+	background: url(../img/fondprivate.jpeg) no-repeat left top; /* left top > background-position: 0 0;*/
+	background-size:cover;
+}
+
+/*************************
+FOOTER
+*************************/
+
+.footer-bottom{
+	background: black;
+	padding: 2em;
+  }
+  
+.footer-middle{
+	background:black;
+	padding-top: 2em;
+	color: white;
+
+}
+
+/*************************
+ANIMATION MOUSELINE
+*************************/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1104 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1104 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.snip1104 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+
+figure.snip1104 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1104 h2 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1104 h2 span {
+  font-weight: 800;
+}
+
+figure.snip1104:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.snip1104 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.snip1104.blue {
+  background: #123851;
+}
+
+figure.snip1104.blue h2 {
+  background: #0a212f;
+}
+
+figure.snip1104.red {
+  background: #581a14;
+}
+
+figure.snip1104.red h2 {
+  background: #36100c;
+}
+
+figure.snip1104.yellow {
+  background: #FFD700;
+}
+
+figure.snip1104.yellow h2 {
+  background: #F8DE7E;
+}
+
+figure.snip1104:hover img,
+figure.snip1104.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+/*************************
+ANIMATION MOUSELINE ART
+*************************/
+figure.snip11042 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 800px;
+  max-height: 500px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip11042 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.snip11042 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+
+figure.snip11042 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip11042 h2 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip11042 h2 span {
+  font-weight: 800;
+}
+
+figure.snip11042:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.snip11042 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+/*************************
+ANIMATION HEADER
+*************************/
+.line {
+  width: 100vw;
+}
+.left, .right {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.left {
+  color:pink;
+  transform: skew(0deg, -15deg);
+}
+.right {
+  color: white;
+  transform: skew(0deg, 15deg);
+}
+.left .content {
+  width: 100vw;
+  text-align: center;
+}
+.right .content {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+span {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vw;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
+}
